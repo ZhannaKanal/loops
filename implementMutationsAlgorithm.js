@@ -12,5 +12,6 @@ const mutation = arr => {
   return true;
 
 }
-
-console.log(mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]))
+const arr = ["zyxwvutsrqponmlkjihgfedcba", "qrstu"]
+const test = mutation(arr)
+console.log(test)
