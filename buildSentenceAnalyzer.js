@@ -44,5 +44,7 @@ const punctuationCount = getPunctuationCount("WHAT?!?!?!?!?");
 console.log(`Punctuation Count: ${punctuationCount}`);
 
 const getWordCount = sentence => {
-
+    if (sentence.trim() === '') {
+    return 0;
+  }
 }
