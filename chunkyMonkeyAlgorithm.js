@@ -4,4 +4,5 @@ const chunkArrayInGroups = (arr, num) => {
     let sliced = arr.slice(i, i + num);
     newArr.push(sliced);
   }
+  return newArr;
 };
