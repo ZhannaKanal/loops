@@ -8,3 +8,5 @@ const findLongestWordLength = str => {
   const findMax = Math.max(...arr)
   return findMax
 }
+
+const longestWord = findLongestWordLength("The quick brown fox jumped over the lazy dog")
