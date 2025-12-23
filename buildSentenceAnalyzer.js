@@ -14,7 +14,7 @@ const vowelCount = getVowelCount("Apples are tasty fruits");
 console.log(`Vowel Count: ${vowelCount}`);
 
 const getConsonantCount = sentence => {
-  const consonants = "bcdfghjklmnpqrstvwxz";
+  const consonants = "bcdfghjklmnpqrstvwxyz";
   let lowerCased = sentence.toLowerCase();
   let counter = 0;
   for(const char of lowerCased){
