@@ -5,4 +5,6 @@ const findLongestWordLength = str => {
     let stringLength = splittedString[i].length
     arr.push(stringLength)
   }
+  const findMax = Math.max(arr)
+  return findMax
 }
