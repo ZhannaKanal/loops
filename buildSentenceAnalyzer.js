@@ -1,13 +1,14 @@
-const getVowelCount = sentence => {
-  let lowerCased = sentence.toLowerCase()
+const getVowelCount = (sentence) => {
+  let lowerCased = sentence.toLowerCase();
+  const vowels = "aeiou";
   var counter = 0;
-  for(let i=0; i<lowerCased.length; i++){
-    if(lowerCased[i]==="a" || lowerCased[i]==="e" || lowerCased[i]==="o"|| lowerCased[i]==="i" || lowerCased[i]==="u"){
-      counter+=1;
+  for (const char of lowerCased) {
+    if (vowels.includes(char)) {
+      counter += 1;
     }
   }
   return counter;
-}
+};
 
-const vowelCount =getVowelCount("Apples are tasty fruits")
-console.log(`Vowel Count: ${vowelCount}`)
+const vowelCount = getVowelCount("Apples are tasty fruits");
+console.log(`Vowel Count: ${vowelCount}`);
