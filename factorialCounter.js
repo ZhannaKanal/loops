@@ -7,3 +7,5 @@ const factorialCalculator = (num) => {
   }
   return result;
 };
+const factorial = factorialCalculator(num)
+
