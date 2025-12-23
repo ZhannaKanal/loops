@@ -1,12 +1,14 @@
-const findLongestWordLength = str => {
-  let arr = []
+const findLongestWordLength = (str) => {
+  let arr = [];
   let splittedString = str.split(" ");
-  for(let i =0; i<splittedString.length; i++){
-    let stringLength = splittedString[i].length
-    arr.push(stringLength)
+  for (let i = 0; i < splittedString.length; i++) {
+    let stringLength = splittedString[i].length;
+    arr.push(stringLength);
   }
-  const findMax = Math.max(...arr)
-  return findMax
-}
+  const findMax = Math.max(...arr);
+  return findMax;
+};
 
-const longestWord = findLongestWordLength("The quick brown fox jumped over the lazy dog")
+const str = "The quick brown fox jumped over the lazy dog";
+const longestWord = findLongestWordLength(str);
+console.log(`The longest word length for "${str}" is: ${longestWord}`);
