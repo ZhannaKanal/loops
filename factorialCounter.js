@@ -7,5 +7,6 @@ const factorialCalculator = (num) => {
   }
   return result;
 };
-const factorial = factorialCalculator(num)
-const resultMsg = `Factorial of ${num} is ${factorial}`
+const factorial = factorialCalculator(num);
+const resultMsg = `Factorial of ${num} is ${factorial}`;
+console.log(resultMsg);
