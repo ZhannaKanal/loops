@@ -3,6 +3,7 @@ const factorialCalculator = (num) => {
   let result = 1;
   for (let i = result; i < num; i++) {
     let multiplied = result * i;
-    console.log(multiplied);
+    result += multiplied;
+    console.log(result);
   }
 };
