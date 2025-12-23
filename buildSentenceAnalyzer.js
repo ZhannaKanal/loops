@@ -27,3 +27,15 @@ const getConsonantCount = sentence => {
 
 const consonantCount = getConsonantCount("Coding is fun")
 console.log(`Consonant Count: ${consonantCount}`)
+
+const getPunctuationCount = sentence => {
+  const notPunctuations = " qwertyuiopasdfghjklzxcvbnm";
+  let counter = 0;
+  for(const char of sentence.toLowerCase()){
+    if(!notPunctuations.includes(char)){
+      counter++;
+      console.log(char)
+    }
+  }
+  return counter;
+}
