@@ -7,4 +7,7 @@ const chunkArrayInGroups = (arr, num) => {
   return newArr;
 };
 
-console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 3))
+const arr = [0, 1, 2, 3, 4, 5]
+const num = 3
+const chunkingParameters = chunkArrayInGroups(arr, num)
+console.log(chunkingParameters)
