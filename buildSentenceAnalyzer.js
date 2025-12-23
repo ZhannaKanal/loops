@@ -50,3 +50,5 @@ const getWordCount = (sentence) => {
   const words = sentence.trim().split(/\s+/);
   return words.length;
 };
+const wordCount = getWordCount("I love freeCodeCamp");
+
