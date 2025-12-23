@@ -1,7 +1,8 @@
 const num = 5;
-const factorialCalculator = num =>{
+const factorialCalculator = (num) => {
   let result = 1;
-  for(let i = result; i<num; i++){
-
+  for (let i = result; i < num; i++) {
+    let multiplied = result * i;
+    console.log(multiplied);
   }
-}
+};
