@@ -12,3 +12,5 @@ const mutation = arr => {
   return true;
 
 }
+
+console.log(mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]))
