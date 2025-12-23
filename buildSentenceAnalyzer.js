@@ -39,3 +39,6 @@ const getPunctuationCount = sentence => {
   }
   return counter;
 }
+
+const punctuationCount = getPunctuationCount("WHAT?!?!?!?!?");
+console.log(`Punctuation Count: ${punctuationCount}`)
