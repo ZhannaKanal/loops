@@ -25,4 +25,5 @@ const getConsonantCount = sentence => {
   return counter;
 }
 
-console.log(getConsonantCount("HhH"))
+const consonantCount = getConsonantCount("Coding is fun")
+console.log(`Consonant Count: ${consonantCount}`)
