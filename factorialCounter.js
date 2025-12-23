@@ -1,9 +1,8 @@
-const num = 5;
+const num = 4;
 const factorialCalculator = (num) => {
   let result = 1;
-  for (let i = result; i < num; i++) {
-    let multiplied = result * i;
-    result += multiplied;
+  for (let i = result; i <= num; i++) {
+    result*=i;
   }
   return result;
 };
