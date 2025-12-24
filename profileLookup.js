@@ -25,6 +25,6 @@ let contacts = [
   },
 ];
 
-const loopUpProfile = (name, property) => {
-
-}
+const loopUpProfile = (name, proper) => {
+  for (let i = 0; i < contacts.length; i++) {}
+};
