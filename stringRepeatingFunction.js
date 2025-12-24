@@ -9,3 +9,6 @@ const repeatStringNumTimes = (str, num) => {
     return "";
   }
 };
+
+const test = repeatStringNumTimes("*", 8);
+console.log(test);
