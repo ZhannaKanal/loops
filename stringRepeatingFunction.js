@@ -4,7 +4,7 @@ const repeatStringNumTimes = (str, num) => {
     for (let i = 0; i < num; i++) {
       arr.push(str);
     }
-    return arr
+    return arr.join("");
   } else {
     return "";
   }
