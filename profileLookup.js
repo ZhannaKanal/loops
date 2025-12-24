@@ -25,3 +25,6 @@ let contacts = [
   },
 ];
 
+const loopUpProfile = (name, property) => {
+
+}
