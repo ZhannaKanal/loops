@@ -26,5 +26,8 @@ let contacts = [
 ];
 
 const loopUpProfile = (name, proper) => {
-  for (let i = 0; i < contacts.length; i++) {}
+  for (let i = 0; i < contacts.length; i++) {
+    if (contacts[i].firstName === name) {
+    }
+  }
 };
