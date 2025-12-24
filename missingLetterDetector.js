@@ -6,5 +6,5 @@ const fearNotLetter = (str) => {
     }
   }
 };
-test = fearNotLetter("abce")
+test = fearNotLetter("abcdefghijklmnopqrstuvwxyz")
 console.log(test)
