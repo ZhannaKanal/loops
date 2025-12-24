@@ -30,6 +30,8 @@ const loopUpProfile = (name, proper) => {
     if(contacts[i].firstName===name){
       if(contacts[i].hasOwnProperty(proper)){
         return contacts[i][proper];
+      }else{
+        return "No such property";
       }
     }
   }
