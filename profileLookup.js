@@ -25,7 +25,7 @@ let contacts = [
   },
 ];
 
-const loopUpProfile = (name, proper) => {
+const lookUpProfile = (name, proper) => {
   for (let i = 0; i < contacts.length; i++) {
     if (contacts[i].firstName === name) {
       if (contacts[i].hasOwnProperty(proper)) {
@@ -37,3 +37,5 @@ const loopUpProfile = (name, proper) => {
   }
   return "No such contact";
 };
+
+console.log(lookUpProfile("Kristian", "lastName"))
