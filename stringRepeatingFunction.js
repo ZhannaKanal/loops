@@ -1,7 +1,9 @@
 const repeatStringNumTimes = (str, num) => {
   let arr = [];
   if (!num <= 0) {
-    return num
+    for (let i = 0; i < num; i++) {
+      
+    }
   } else {
     return "";
   }
